@@ -1,0 +1,44 @@
+-- Found Git: C:/Espressif/tools/idf-git/2.34.2/cmd/git.exe (found version "2.34.1.windows.1") 
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Users/lucas/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/lucas/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/lucas/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/Users/lucas/OneDrive/Documentos/ESP_IDF/lucas/serial/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: C:/Users/lucas/.espressif/python_env/idf5.0_py3.8_env/Scripts/python.exe (found version "3.8.7") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "serial" version: v5.0
+-- Adding linker script C:/Users/lucas/OneDrive/Documentos/ESP_IDF/lucas/serial/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/app_trace C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/app_update C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/bootloader C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/bootloader_support C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/bt C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/cmock C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/console C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/cxx C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/driver C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/efuse C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp-tls C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_adc C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_app_format C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_common C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_eth C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_event C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_gdbstub C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_hid C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_http_client C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_http_server C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_https_ota C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_https_server C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_hw_support C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_lcd C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_local_ctrl C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_netif C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_partition C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_phy C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_pm C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_psram C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_ringbuf C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_rom C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_system C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_timer C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_wifi C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/espcoredump C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esptool_py C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/fatfs C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/freertos C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/hal C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/heap C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/http_parser C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/idf_test C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/ieee802154 C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/json C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/log C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/lwip C:/Users/lucas/OneDrive/Documentos/ESP_IDF/lucas/serial/main C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/mbedtls C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/mqtt C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/newlib C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/nvs_flash C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/openthread C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/partition_table C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/perfmon C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/protobuf-c C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/protocomm C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/pthread C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/sdmmc C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/soc C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/spi_flash C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/spiffs C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/tcp_transport C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/ulp C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/unity C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/usb C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/vfs C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/wear_levelling C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/wifi_provisioning C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/wpa_supplicant C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/lucas/OneDrive/Documentos/ESP_IDF/lucas/serial/build

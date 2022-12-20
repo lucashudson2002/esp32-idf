@@ -1,0 +1,4 @@
+# put here your custom config value
+menu "Example Configuration"
+
+endmenu

@@ -1,0 +1,67 @@
+[1/5] cmd.exe /C "cd /D C:\Users\lucas\OneDrive\Documentos\ESP_IDF\lucas\pwm\build\esp-idf\esptool_py && C:\Users\lucas\.espressif\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/lucas/OneDrive/Documentos/ESP_IDF/lucas/pwm/build/partition_table/partition-table.bin C:/Users/lucas/OneDrive/Documentos/ESP_IDF/lucas/pwm/build/digital_out.bin"
+digital_out.bin binary size 0x2d100 bytes. Smallest app partition is 0x100000 bytes. 0xd2f00 bytes (82%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\lucas\OneDrive\Documentos\ESP_IDF\lucas\pwm\build\bootloader\esp-idf\esptool_py && C:\Users\lucas\.espressif\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/lucas/OneDrive/Documentos/ESP_IDF/lucas/pwm/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6700 bytes. 0x900 bytes (8%) free.
+[2/3] cmd.exe /C "cd /D C:\Users\lucas\OneDrive\Documentos\ESP_IDF\components\esptool_py && C:\Users\lucas\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/lucas/OneDrive/Documentos/ESP_IDF -D SERIAL_TOOL=C:/Users/lucas/.espressif/python_env/idf5.0_py3.8_env/Scripts/python.exe;;C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/lucas/OneDrive/Documentos/ESP_IDF/lucas/pwm/build -P C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esptool_py/run_serial_tool.cmake"
+esptool.py v4.4
+usage: esptool [-h]
+               [--chip {auto,esp8266,esp32,esp32s2,esp32s3beta2,esp32s3,esp32c3,esp32c6beta,esp32h2beta1,esp32h2beta2,esp32c2,esp32c6}]
+               [--port PORT] [--baud BAUD]
+               [--before {default_reset,usb_reset,no_reset,no_reset_no_sync}]
+               [--after {hard_reset,soft_reset,no_reset,no_reset_stub}]
+               [--no-stub] [--trace] [--override-vddsdio [{1.8V,1.9V,OFF}]]
+               [--connect-attempts CONNECT_ATTEMPTS]
+               {load_ram,dump_mem,read_mem,write_mem,write_flash,run,image_info,make_image,elf2image,read_mac,chip_id,flash_id,read_flash_status,write_flash_status,read_flash,verify_flash,erase_flash,erase_region,merge_bin,get_security_info,version}
+               ...
+
+esptool.py v4.4 - Espressif chips ROM Bootloader Utility
+
+positional arguments:
+  {load_ram,dump_mem,read_mem,write_mem,write_flash,run,image_info,make_image,elf2image,read_mac,chip_id,flash_id,read_flash_status,write_flash_status,read_flash,verify_flash,erase_flash,erase_region,merge_bin,get_security_info,version}
+                        Run esptool.py {command} -h for additional help
+    load_ram            Download an image to RAM and execute
+    dump_mem            Dump arbitrary memory to disk
+    read_mem            Read arbitrary memory location
+    write_mem           Read-modify-write to arbitrary memory location
+    write_flash         Write a binary blob to flash
+    run                 Run application code in flash
+    image_info          Dump headers from an application image
+    make_image          Create an application image from binary files
+    elf2image           Create an application image from ELF file
+    read_mac            Read MAC address from OTP ROM
+    chip_id             Read Chip ID from OTP ROM
+    flash_id            Read SPI flash manufacturer and device ID
+    read_flash_status   Read SPI flash status register
+    write_flash_status  Write SPI flash status register
+    read_flash          Read SPI flash content
+    verify_flash        Verify a binary blob against flash
+    erase_flash         Perform Chip Erase on SPI flash
+    erase_region        Erase a region of the flash
+    merge_bin           Merge multiple raw binary files into a single file for
+                        later flashing
+    get_security_info   Get some security-related data
+    version             Print esptool version
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --chip {auto,esp8266,esp32,esp32s2,esp32s3beta2,esp32s3,esp32c3,esp32c6beta,esp32h2beta1,esp32h2beta2,esp32c2,esp32c6}, -c {auto,esp8266,esp32,esp32s2,esp32s3beta2,esp32s3,esp32c3,esp32c6beta,esp32h2beta1,esp32h2beta2,esp32c2,esp32c6}
+                        Target chip type
+  --port PORT, -p PORT  Serial port device
+  --baud BAUD, -b BAUD  Serial port baud rate used when flashing/reading
+  --before {default_reset,usb_reset,no_reset,no_reset_no_sync}
+                        What to do before connecting to the chip
+  --after {hard_reset,soft_reset,no_reset,no_reset_stub}, -a {hard_reset,soft_reset,no_reset,no_reset_stub}
+                        What to do after esptool.py is finished
+  --no-stub             Disable launching the flasher stub, only talk to ROM
+                        bootloader. Some features will not be available.
+  --trace, -t           Enable trace-level output of esptool.py interactions.
+  --override-vddsdio [{1.8V,1.9V,OFF}]
+                        Override ESP32 VDDSDIO internal voltage regulator (use
+                        with care)
+  --connect-attempts CONNECT_ATTEMPTS
+                        Number of attempts to connect, negative or 0 for
+                        infinite. Default: 7.
+FAILED: CMakeFiles/flash C:/Users/lucas/OneDrive/Documentos/ESP_IDF/lucas/pwm/build/CMakeFiles/flash 
+cmd.exe /C "cd /D C:\Users\lucas\OneDrive\Documentos\ESP_IDF\components\esptool_py && C:\Users\lucas\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/lucas/OneDrive/Documentos/ESP_IDF -D SERIAL_TOOL=C:/Users/lucas/.espressif/python_env/idf5.0_py3.8_env/Scripts/python.exe;;C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/lucas/OneDrive/Documentos/ESP_IDF/lucas/pwm/build -P C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esptool_py/run_serial_tool.cmake"
+ninja: build stopped: subcommand failed.
