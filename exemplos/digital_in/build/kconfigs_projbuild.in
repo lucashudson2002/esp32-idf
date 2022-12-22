@@ -1,6 +1,0 @@
-source "C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/bootloader/Kconfig.projbuild"
-source "C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_app_format/Kconfig.projbuild"
-source "C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esp_rom/Kconfig.projbuild"
-source "C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/esptool_py/Kconfig.projbuild"
-source "C:/Users/lucas/OneDrive/Documentos/ESP_IDF/components/partition_table/Kconfig.projbuild"
-source "C:/Users/lucas/OneDrive/Documentos/ESP_IDF/lucas/digital_in/main/Kconfig.projbuild"
