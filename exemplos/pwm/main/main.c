@@ -5,7 +5,7 @@
 
 #define LEDC_TIMER LEDC_TIMER_0
 #define LEDC_MODE LEDC_LOW_SPEED_MODE
-#define LED 2
+#define LED_PIN 2
 #define LEDC_CHANNEL LEDC_CHANNEL_0
 #define LEDC_DUTY_RES LEDC_TIMER_8_BIT
 #define LEDC_FREQUENCY 5000 
@@ -23,7 +23,7 @@ static void ledc_init(){
         .speed_mode = LEDC_MODE,
         .channel = LEDC_CHANNEL,
         .timer_sel = LEDC_TIMER,
-        .gpio_num = LED,
+        .gpio_num = LED_PIN,
         .duty = 0,
         .hpoint = 0
     };
@@ -32,8 +32,8 @@ static void ledc_init(){
 
 void app_main(void){
 
-    esp_rom_gpio_pad_select_gpio(LED);
-    gpio_set_direction(LED, GPIO_MODE_OUTPUT);
+    esp_rom_gpio_pad_select_gpio(LED_PIN);
+    gpio_set_direction(LED_PIN, GPIO_MODE_OUTPUT);
 
     ledc_init();
 
